@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Rose', 'chamomile', 'sunflower', 'sunflowers', 'tulip']
+
+roboflow:
+  workspace: flowerdetection-1qalf
+  project: flower-classification-gsskn-kncf9
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/flowerdetection-1qalf/flower-classification-gsskn-kncf9/dataset/1
